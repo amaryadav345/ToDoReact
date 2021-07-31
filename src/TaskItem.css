@@ -1,0 +1,19 @@
+.deleteButton {
+    width: 20px;
+    border-radius: 50%;
+    border-left: transparent;
+    background-color: #a97be2;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.deleteButton:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.toDoStyle {
+    padding: 0px;
+}

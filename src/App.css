@@ -1,0 +1,68 @@
+.main_container {
+    background-color: #83cdf0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_card {
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+    transition: 200ms;
+    width: auto;
+    height: auto;
+    min-height: 400px;
+}
+
+h1 {
+    /* margin-left: 10px; */
+    background-color: #a97be2;
+    color: #fff;
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.input_field {
+    margin: 10px;
+    height: 50px;
+    font-size: 25px;
+    border-bottom: 3px solid #a97be2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.addButton {
+    width: 50px;
+    border-radius: 50%;
+    border-left: transparent;
+    background-color: #a97be2;
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.addButton:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+ol {
+    margin-left: 0px;
+}
